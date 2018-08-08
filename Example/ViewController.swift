@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         case telegramPicker = "Telegram Picker"
         case newTest = "Test"
         case newTest2 = "Test2"
+        case newTest3 = "Test3"
         
         var description: String {
             switch self {
@@ -48,6 +49,7 @@ class ViewController: UIViewController {
             case .telegramPicker: return "Similar to the Telegram"
             case .newTest: return "Test"
             case .newTest2: return "Test2"
+            case .newTest3: return "Test3"
             }
         }
         
